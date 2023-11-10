@@ -1,9 +1,8 @@
-exit = False
-while exit == False:
-    name = 'Valentyn'
+name = 'Valentyn'
+while True:
     enter_name = input("Enter your name: ")
     if name.lower() == enter_name.lower():
         print("True!")
-        exit = True
+        break
     else:
         print("Wrong! Try again.")
