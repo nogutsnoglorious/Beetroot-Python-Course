@@ -1,6 +1,17 @@
 import random
 
-string = input("Enter word: ")
+word = input("Enter any word: ")
 
-for i in range(5):
+for x in range(5):
+    character_list = []
+    for i in word:
+        character_list.append(i.lower())
+        random.shuffle(character_list)
 
+    new_word = ""
+    for el in character_list:
+        new_word += el
+
+    print (new_word)
+
+# не розумію, як можна вирішити завдання без списків
