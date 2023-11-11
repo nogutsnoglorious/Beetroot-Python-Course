@@ -1,6 +1,13 @@
-number = input("Enter any float number: ")
+while True:
+    number = input("Enter any integer number: ")
 
-def check_number():
-    print(int(number) % 2 == 0)
+    def check_number():
+        print(int(number) % 2 == 0)
 
-check_number()
+    if number == "":
+        break
+    elif number.isdigit() == False:
+        print("This is not a number!")
+        continue
+    else:
+        check_number()
