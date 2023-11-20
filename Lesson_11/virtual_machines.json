@@ -1,0 +1,453 @@
+[
+    {
+      "name": "VM1",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "San Francisco, Silicon Valley Data Center",
+      "region": "North America (United States)",
+      "provider": "Provider A"
+    },
+    {
+      "name": "VM2",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Amsterdam, Netherlands Data Hub",
+      "region": "Europe (Netherlands)",
+      "provider": "Provider B"
+    },
+    {
+      "name": "VM3",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Tokyo, Japan Cloud Center",
+      "region": "Asia Pacific (Japan)",
+      "provider": "Provider C"
+    },
+    {
+      "name": "VM4",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Toronto, Canada Data Tower",
+      "region": "North America (Canada)",
+      "provider": "Provider D"
+    },
+    {
+      "name": "VM5",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "London, United Kingdom Cloud Hub",
+      "region": "Europe (United Kingdom)",
+      "provider": "Provider E"
+    },
+    {
+      "name": "VM6",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Singapore Data Center",
+      "region": "Asia Pacific (Singapore)",
+      "provider": "Provider F"
+    },
+    {
+      "name": "VM7",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "New York City, USA Cloud Tower",
+      "region": "North America (United States)",
+      "provider": "Provider G"
+    },
+    {
+      "name": "VM8",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Frankfurt, Germany Data Hub",
+      "region": "Europe (Germany)",
+      "provider": "Provider H"
+    },
+    {
+      "name": "VM9",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Sydney, Australia Cloud Center",
+      "region": "Asia Pacific (Australia)",
+      "provider": "Provider I"
+    },
+    {
+      "name": "VM10",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Seattle, USA Data Tower",
+      "region": "North America (United States)",
+      "provider": "Provider J"
+    },
+    {
+      "name": "VM11",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Paris, France Cloud Hub",
+      "region": "Europe (France)",
+      "provider": "Provider K"
+    },
+    {
+      "name": "VM12",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Bangalore, India Data Center",
+      "region": "Asia Pacific (India)",
+      "provider": "Provider L"
+    },
+    {
+      "name": "VM13",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Dublin, Ireland Cloud Center",
+      "region": "Europe (Ireland)",
+      "provider": "Provider M"
+    },
+    {
+      "name": "VM14",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Mumbai, India Data Tower",
+      "region": "Asia Pacific (India)",
+      "provider": "Provider N"
+    },
+    {
+      "name": "VM15",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Chicago, USA Cloud Hub",
+      "region": "North America (United States)",
+      "provider": "Provider O"
+    },
+    {
+      "name": "VM16",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Madrid, Spain Data Hub",
+      "region": "Europe (Spain)",
+      "provider": "Provider P"
+    },
+    {
+      "name": "VM17",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Seoul, South Korea Cloud Center",
+      "region": "Asia Pacific (South Korea)",
+      "provider": "Provider Q"
+    },
+    {
+      "name": "VM18",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Zurich, Switzerland Data Tower",
+      "region": "Europe (Switzerland)",
+      "provider": "Provider R"
+    },
+    {
+      "name": "VM19",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Toronto, Canada Cloud Hub",
+      "region": "North America (Canada)",
+      "provider": "Provider S"
+    },
+    {
+      "name": "VM20",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Berlin, Germany Data Hub",
+      "region": "Europe (Germany)",
+      "provider": "Provider T"
+    },
+    {
+      "name": "VM21",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Shanghai, China Cloud Center",
+      "region": "Asia Pacific (China)",
+      "provider": "Provider U"
+    },
+    {
+      "name": "VM22",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Stockholm, Sweden Data Tower",
+      "region": "Europe (Sweden)",
+      "provider": "Provider V"
+    },
+    {
+      "name": "VM23",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Melbourne, Australia Cloud Hub",
+      "region": "Asia Pacific (Australia)",
+      "provider": "Provider W"
+    },
+    {
+      "name": "VM24",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Dallas, USA Data Center",
+      "region": "North America (United States)",
+      "provider": "Provider X"
+    },
+    {
+      "name": "VM25",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Moscow, Russia Data Tower",
+      "region": "Europe (Russia)",
+      "provider": "Provider Y"
+    },
+    {
+      "name": "VM26",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Oslo, Norway Cloud Center",
+      "region": "Europe (Norway)",
+      "provider": "Provider Z"
+    },
+    {
+      "name": "VM27",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Tokyo, Japan Cloud Tower",
+      "region": "Asia Pacific (Japan)",
+      "provider": "Provider AA"
+    },
+    {
+      "name": "VM28",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "São Paulo, Brazil Data Center",
+      "region": "South America (Brazil)",
+      "provider": "Provider BB"
+    },
+    {
+      "name": "VM29",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Paris, France Cloud Hub",
+      "region": "Europe (France)",
+      "provider": "Provider CC"
+    },
+    {
+      "name": "VM30",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Seoul, South Korea Data Tower",
+      "region": "Asia Pacific (South Korea)",
+      "provider": "Provider DD"
+    },
+    {
+      "name": "VM31",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Sydney, Australia Cloud Center",
+      "region": "Asia Pacific (Australia)",
+      "provider": "Provider EE"
+    },
+    {
+      "name": "VM32",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Los Angeles, USA Data Center",
+      "region": "North America (United States)",
+      "provider": "Provider FF"
+    },
+    {
+      "name": "VM33",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "London, United Kingdom Cloud Hub",
+      "region": "Europe (United Kingdom)",
+      "provider": "Provider GG"
+    },
+    {
+      "name": "VM34",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Singapore Data Center",
+      "region": "Asia Pacific (Singapore)",
+      "provider": "Provider HH"
+    },
+    {
+      "name": "VM35",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "New York City, USA Cloud Tower",
+      "region": "North America (United States)",
+      "provider": "Provider II"
+    },
+    {
+      "name": "VM36",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Frankfurt, Germany Data Hub",
+      "region": "Europe (Germany)",
+      "provider": "Provider JJ"
+    },
+    {
+      "name": "VM37",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Tokyo, Japan Cloud Center",
+      "region": "Asia Pacific (Japan)",
+      "provider": "Provider KK"
+    },
+    {
+      "name": "VM38",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Toronto, Canada Data Tower",
+      "region": "North America (Canada)",
+      "provider": "Provider LL"
+    },
+    {
+      "name": "VM39",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "London, United Kingdom Cloud Hub",
+      "region": "Europe (United Kingdom)",
+      "provider": "Provider MM"
+    },
+    {
+      "name": "VM40",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Sydney, Australia Cloud Center",
+      "region": "Asia Pacific (Australia)",
+      "provider": "Provider NN"
+    },
+    {
+      "name": "VM41",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Singapore Data Center",
+      "region": "Asia Pacific (Singapore)",
+      "provider": "Provider OO"
+    },
+    {
+      "name": "VM42",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "New York City, USA Data Tower",
+      "region": "North America (United States)",
+      "provider": "Provider PP"
+    },
+    {
+      "name": "VM43",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Frankfurt, Germany Cloud Hub",
+      "region": "Europe (Germany)",
+      "provider": "Provider QQ"
+    },
+    {
+      "name": "VM44",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Tokyo, Japan Cloud Center",
+      "region": "Asia Pacific (Japan)",
+      "provider": "Provider RR"
+    },
+    {
+      "name": "VM45",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "Toronto, Canada Data Tower",
+      "region": "North America (Canada)",
+      "provider": "Provider SS"
+    },
+    {
+      "name": "VM46",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "London, United Kingdom Cloud Hub",
+      "region": "Europe (United Kingdom)",
+      "provider": "Provider TT"
+    },
+    {
+      "name": "VM47",
+      "processor": "Intel Core i7",
+      "memory": "32GB",
+      "storage": "1TB",
+      "location": "Sydney, Australia Cloud Center",
+      "region": "Asia Pacific (Australia)",
+      "provider": "Provider UU"
+    },
+    {
+      "name": "VM48",
+      "processor": "AMD EPYC",
+      "memory": "64GB",
+      "storage": "2TB",
+      "location": "Singapore Data Center",
+      "region": "Asia Pacific (Singapore)",
+      "provider": "Provider VV"
+    },
+    {
+      "name": "VM49",
+      "processor": "Intel Xeon",
+      "memory": "16GB",
+      "storage": "500GB",
+      "location": "New York City, USA Data Tower",
+      "region": "North America (United States)",
+      "provider": "Provider WW"
+    },
+    {
+      "name": "VM50",
+      "processor": "AMD Ryzen",
+      "memory": "8GB",
+      "storage": "256GB",
+      "location": "Frankfurt, Germany Cloud Hub",
+      "region": "Europe (Germany)",
+      "provider": "Provider XX"
+    }
+  ]
+  

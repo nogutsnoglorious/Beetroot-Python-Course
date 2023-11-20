@@ -1,0 +1,48 @@
+Name,Surname,Age,Phone,City,Country,Department,Position
+John,Smith,32,+1 1234567890,New York,United States,Marketing,Marketing Manager
+Emma,Johnson,28,+44 987654321,London,United Kingdom,Finance,Financial Analyst
+Liam,Williams,35,+1 2345678901,Toronto,Canada,IT,Software Engineer
+Olivia,Brown,30,+61 432109876,Sydney,Australia,Human Resources,HR Manager
+Noah,Lee,29,+82 9876543210,Seoul,South Korea,Operations,Operations Manager
+Sophia,Kim,31,+82 9876543211,Busan,South Korea,Sales,Sales Representative
+Benjamin,Garcia,33,+34 612345678,Madrid,Spain,Finance,Finance Manager
+Mia,Rossi,27,+39 3210987654,Rome,Italy,IT,Database Administrator
+William,Jensen,34,+45 98765432,Copenhagen,Denmark,Marketing,Marketing Coordinator
+Isabella,Nielsen,29,+46 876543210,Gothenburg,Sweden,Human Resources,HR Assistant
+Julia,Novak,30,+420 123456789,Prague,Czech Republic,Finance,Accountant
+David,Santos,32,+351 987654321,Lisbon,Portugal,Operations,Operations Coordinator
+Sofia,Müller,33,+49 123456789,Berlin,Germany,IT,IT Manager
+Maria,Lopez,31,+34 612345679,Barcelona,Spain,Sales,Sales Manager
+Sophie,Dubois,27,+33 612345678,Paris,France,Marketing,Marketing Assistant
+Sebastian,Wagner,28,+49 987654321,Hamburg,Germany,Finance,Financial Manager
+Hugo,Andersson,33,+46 765432109,Gothenburg,Sweden,Operations,Operations Analyst
+Grace,O'Connor,30,+353 123456789,Dublin,Ireland,Human Resources,HR Manager
+Daniel,Johnson,32,+1 987654321,Miami,United States,Sales,Sales Representative
+Ava,Martin,29,+44 1234567890,Manchester,United Kingdom,IT,IT Manager
+Liam,Nguyen,31,+61 987654321,Sydney,Australia,Marketing,Marketing Coordinator
+Sophia,Chen,27,+886 987654321,Taipei,Taiwan,Finance,Financial Analyst
+James,Alonso,35,+34 987654321,Barcelona,Spain,Operations,Operations Manager
+Emily,Bianchi,28,+39 6543210987,Milan,Italy,Sales,Sales Representative
+Ethan,Eriksson,30,+46 987654321,Stockholm,Sweden,IT,Software Engineer
+Emily,Popescu,29,+40 123456789,Bucharest,Romania,Marketing,Marketing Manager
+Andrii,Ivanenko,31,+380 987654321,Kyiv,Ukraine,Finance,Financial Analyst
+Elena,Popova,34,+373 12345678,Chisinau,Moldova,Operations,Operations Coordinator
+Darius,Kazlauskas,27,+370 98765432,Vilnius,Lithuania,Sales,Sales Representative
+Anna,Jansone,28,+371 98765432,Riga,Latvia,IT,IT Manager
+Marta,Lukas,29,+372 12345678,Tallinn,Estonia,Marketing,Marketing Coordinator
+Deniss,Jansons,32,+371 87654321,Riga,Latvia,Finance,Finance Manager
+Oleg,Petrov,30,+380 987654322,Kharkiv,Ukraine,Operations,Operations Coordinator
+Irina,Moraru,33,+373 87654321,Chisinau,Moldova,Human Resources,HR Manager
+Natalia,Ionescu,27,+40 987654321,Bucharest,Romania,Sales,Sales Representative
+Serhiy,Kovalenko,28,+380 123456789,Kyiv,Ukraine,IT,IT Manager
+Daniel,Popescu,29,+40 876543210,Bucharest,Romania,Finance,Financial Analyst
+Viktor,Petrovici,31,+373 98765432,Chisinau,Moldova,Operations,Operations Coordinator
+Milda,Kazlauskaitė,33,+370 12345678,Vilnius,Lithuania,Marketing,Marketing Manager
+Matīss,Jansons,30,+371 12345678,Riga,Latvia,Sales,Sales Representative
+Anita,Silina,27,+371 87654321,Riga,Latvia,Human Resources,HR Assistant
+Andrius,Kazlauskas,28,+370 87654321,Vilnius,Lithuania,Finance,Finance Manager
+Karolina,Jansone,29,+371 98765432,Riga,Latvia,Operations,Operations Coordinator
+Robertas,Lukas,31,+372 98765432,Tallinn,Estonia,IT,IT Manager
+Liisa,Tamm,30,+372 12345678,Tallinn,Estonia,Marketing,Marketing Coordinator
+Andres,Kask,32,+372 87654321,Tallinn,Estonia,Finance,Financial Analyst
+Emma,Roos,33,+372 98765432,Tallinn,Estonia,Sales,Sales Representative
