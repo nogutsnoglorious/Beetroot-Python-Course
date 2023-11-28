@@ -13,17 +13,24 @@ with open("D:\GLORY\Education\Beetroot Python Course\Lesson_11\my_csv.csv", "r")
     fields = next(csv_reader)
     for row in csv_reader:
         rows.append(row)
-    print(f'Heres initial cvs file content: {rows}')
+    print(f'Heres initial csv file content: {rows}')
 
 # Append new data to the CSV file
-new_fruit = ["grapefruit", 2, 100]
+new_fruit = ['grapefruit', 2, 100]
 with open("D:\GLORY\Education\Beetroot Python Course\Lesson_11\my_csv.csv", "a", newline="") as csv_file:
     csv_writer = csv.writer(csv_file)
+    #csv_writer.writerow([])
     csv_writer.writerow(new_fruit)  # Use writerow() to write a single row
     print("New data has been appended to the CSV file")
 
+
 # Verify the appended data
-with open("D:\GLORY\Education\Beetroot Python Course\Lesson_11\my_csv.csv", "r") as csv_file:
-    csv_reader = csv.reader(csv_file)
+with open("D:\GLORY\Education\Beetroot Python Course\Lesson_11\my_csv.csv", "r") as csv_wrapper:
+    csv_reader = csv.reader(csv_wrapper)
+    count_price = 0
+    next(csv_reader)
     for row in csv_reader:
         print(row)
+        for el in row:
+            count_price = count_price + int(row[1])*int(row[2])
+print(f'Total sum of fruits is {count_price}.')
