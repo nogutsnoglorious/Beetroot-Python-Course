@@ -11,30 +11,30 @@ import time
 
 # Task 0 Testing with numbers
 
-# def calc_decorator(func):
-#     @wraps(func)
-#     def wrapper(x,y):
-#         result = 0
-#         if x<y:
-#             result = add_num(x,y)
-#             return result
-#         elif x>y:
-#             result = subtract_num(x,y)
-#             return result
-#     return wrapper
+def calc_decorator(func):
+    @wraps(func)
+    def wrapper(x,y):
+        result = 0
+        if x<y:
+            result = add_num(x,y)
+            return result
+        elif x>y:
+            result = subtract_num(x,y)
+            return result
+    return wrapper
 
 
-# @calc_decorator
-# def count_num(x,y):
-#     return x,y
+@calc_decorator
+def count_num(x,y):
+    return x,y
 
-# def add_num(x,y):
-#     return x+y
+def add_num(x,y):
+    return x+y
 
-# def subtract_num(x,y):
-#     return x-y
+def subtract_num(x,y):
+    return x-y
 
-# print(count_num(12,9))
+print(count_num(12,9))
 
 # ----------------------------------------------
 
@@ -83,20 +83,20 @@ import time
 
 # Task 3
 
-def error_decorator(func):
-    @wraps(func)
-    def wrapper(x,y):
-        result = func(x,y)
-        output = x + " " + y
-        if y == 'word':
-            raise SyntaxError("You have a mistake!")
-        else: 
-            return output
-    return wrapper
+# def error_decorator(func):
+#     @wraps(func)
+#     def wrapper(x,y):
+#         result = func(x,y)
+#         output = x + " " + y
+#         if y == 'word':
+#             raise SyntaxError("You have a mistake!")
+#         else: 
+#             return output
+#     return wrapper
 
 
-@error_decorator
-def say_hi(x,y):
-    return x,y
+# @error_decorator
+# def say_hi(x,y):
+#     return x,y
 
-print(say_hi('hello', 'word'))
+# print(say_hi('hello', 'word'))
