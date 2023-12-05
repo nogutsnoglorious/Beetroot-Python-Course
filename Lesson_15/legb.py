@@ -2,7 +2,7 @@ def my_func():
     var = "Wednesday"
     return var
 
-print(var)
+# print(var)
 
 # LEGB
 
