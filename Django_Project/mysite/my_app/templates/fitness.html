@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Level Estimation Poll</title>
+</head>
+<body>
+
+<h1>Fitness Level Estimation Poll</h1>
+    <ol>
+        <li>
+            <label for="q1">How often do you exercise?</label><br>
+            <input type="radio" id="q1" name="exercise_frequency" value="daily"> Daily<br>
+            <input type="radio" id="q1" name="exercise_frequency" value="3-4_times_week"> 3-4 times a week<br>
+            <input type="radio" id="q1" name="exercise_frequency" value="1-2_times_week"> 1-2 times a week<br>
+            <input type="radio" id="q1" name="exercise_frequency" value="rarely"> Rarely<br>
+        </li>
+        <li>
+            <label for="q2">What type of exercise do you prefer?</label><br>
+            <input type="checkbox" id="q2" name="exercise_type" value="cardio"> Cardio<br>
+            <input type="checkbox" id="q2" name="exercise_type" value="strength_training"> Strength training<br>
+            <input type="checkbox" id="q2" name="exercise_type" value="yoga_pilates"> Yoga/Pilates<br>
+            <input type="checkbox" id="q2" name="exercise_type" value="sports"> Sports<br>
+        </li>
+        <li>
+            <label for="q3">How many hours of sleep do you get per night?</label><br>
+            <input type="radio" id="q3" name="sleep_hours" value="less_than_6"> Less than 6 hours<br>
+            <input type="radio" id="q3" name="sleep_hours" value="6-8_hours"> 6-8 hours<br>
+            <input type="radio" id="q3" name="sleep_hours" value="more_than_8"> More than 8 hours<br>
+        </li>
+        <li>
+            <label for="q4">How would you describe your diet?</label><br>
+            <input type="checkbox" id="q4" name="diet" value="balanced"> Balanced<br>
+            <input type="checkbox" id="q4" name="diet" value="high_protein"> High protein<br>
+            <input type="checkbox" id="q4" name="diet" value="low_carb"> Low carb<br>
+            <input type="checkbox" id="q4" name="diet" value="vegetarian"> Vegetarian<br>
+        </li>
+        <li>
+            <label for="q5">Do you have any chronic health conditions?</label><br>
+            <input type="checkbox" id="q5" name="health_conditions" value="hypertension"> Hypertension<br>
+            <input type="checkbox" id="q5" name="health_conditions" value="diabetes"> Diabetes<br>
+            <input type="checkbox" id="q5" name="health_conditions" value="asthma"> Asthma<br>
+            <input type="checkbox" id="q5" name="health_conditions" value="none"> None<br>
+        </li>
+        <li>
+            <label for="q6">How often do you engage in high-intensity workouts?</label><br>
+            <input type="radio" id="q6" name="intensity_workouts" value="daily"> Daily<br>
+            <input type="radio" id="q6" name="intensity_workouts" value="3-4_times_week"> 3-4 times a week<br>
+            <input type="radio" id="q6" name="intensity_workouts" value="1-2_times_week"> 1-2 times a week<br>
+            <input type="radio" id="q6" name="intensity_workouts" value="rarely"> Rarely<br>
+        </li>
+        <li>
+            <label for="q7">Do you incorporate stretching or flexibility exercises into your routine?</label><br>
+            <input type="checkbox" id="q7" name="flexibility_exercises" value="daily"> Daily<br>
+            <input type="checkbox" id="q7" name="flexibility_exercises" value="3-4_times_week"> 3-4 times a week<br>
+            <input type="checkbox" id="q7" name="flexibility_exercises" value="1-2_times_week"> 1-2 times a week<br>
+            <input type="checkbox" id="q7" name="flexibility_exercises" value="rarely"> Rarely<br>
+        </li>
+        <li>
+            <label for="q8">How do you track your fitness progress?</label><br>
+            <input type="checkbox" id="q8" name="fitness_tracking" value="fitness_app"> Fitness app<br>
+            <input type="checkbox" id="q8" name="fitness_tracking" value="journal"> Journal<br>
+            <input type="checkbox" id="q8" name="fitness_tracking" value="wearable_device"> Wearable device<br>
+            <input type="checkbox" id="q8" name="fitness_tracking" value="none"> None<br>
+        </li>
+        <li>
+            <label for="q9">Do you have a designated workout space or gym membership?</label><br>
+            <input type="radio" id="q9" name="workout_space" value="yes"> Yes<br>
+            <input type="radio" id="q9" name="workout_space" value="no"> No<br>
+        </li>
+        <li>
+            <label for="q10">What is your main fitness goal?</label><br>
+            <input type="checkbox" id="q10" name="fitness_goal" value="weight_loss"> Weight loss<br>
+            <input type="checkbox" id="q10" name="fitness_goal" value="muscle_gain"> Muscle gain<br>
+            <input type="checkbox" id="q10" name="fitness_goal" value="improve_endurance"> Improve endurance<br>
+            <input type="checkbox" id="q10" name="fitness_goal" value="maintain_health"> Maintain overall health<br>
+        </li>
+    </ol>
+
+<button><a href="{% url 'child' %}">RETURN</a></button>
+
+
+</body>
+</html>

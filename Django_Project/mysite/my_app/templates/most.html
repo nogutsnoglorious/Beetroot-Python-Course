@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Most Expensive Artworks</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+</head>
+<body>
+
+<h1>Most Expensive Artworks</h1>
+
+<table id='table' border="1">
+    <thead>
+        <tr>
+            <th>Artwork</th>
+            <th>Artist</th>
+            <th>Year</th>
+            <th>Sale Price (USD)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Salvator Mundi</td>
+            <td>Leonardo da Vinci</td>
+            <td>circa 1500</td>
+            <td>$450.3 million</td>
+        </tr>
+        <tr>
+            <td>Interchange</td>
+            <td>Willem de Kooning</td>
+            <td>1955</td>
+            <td>$300 million</td>
+        </tr>
+        <tr>
+            <td>When Will You Marry?</td>
+            <td>Paul Gauguin</td>
+            <td>1892</td>
+            <td>$210 million</td>
+        </tr>
+        <!-- Add more rows for other artworks -->
+    </tbody>
+</table>
+
+<button><a href="{% url 'child' %}">RETURN</a></button>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+{% extends "simple.html" %}
+
+{% block content %}
+        
+{% for entry in my_pages %}
+    <ol>
+        <li><a href="{% url 'football' %}">{{ entry.page_1 }}</a></li>
+        <li><a href="{% url 'most' %}">{{ entry.page_2 }}</a></li>
+        <li><a href="{% url 'fitness' %}">{{ entry.page_3 }}</a></li>
+    </ol>
+{% endfor %}
+
+{% endblock %}

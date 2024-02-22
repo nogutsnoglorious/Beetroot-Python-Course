@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FIFA World Cup Winners</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+</head>
+<body>
+
+<h1>FIFA World Cup Winners</h1>
+<h3>since 1998</h3>
+
+<ul>
+    <li>1998 - France</li>
+    <li>2002 - Brazil</li>
+    <li>2006 - Italy</li>
+    <li>2010 - Spain</li>
+    <li>2014 - Germany</li>
+    <li>2018 - France</li>
+    <li>2022 - Argentina</li>
+</ul>
+
+<button><a href="{% url 'child' %}">RETURN</a></button>
+
+</body>
+</html>
