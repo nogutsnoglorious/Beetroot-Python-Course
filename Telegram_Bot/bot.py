@@ -11,6 +11,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         rf"Hi {user.mention_html()}!",
         reply_markup=ForceReply(selective=True),
     )
+    # Call the help_command function to show available commands
+    await help_command(update, context)
 
 async def tokyo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     url = 'https://www.worldtimeapi.org/api/timezone/Asia/Tokyo.txt'
@@ -77,15 +79,27 @@ async def bitcoin(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     # Send the message
     await update.message.reply_text(price_message)
 
-# def echo(update,context):
-#     context.bot.send_message(chat_id=update.effective_chat.id, text=update.message.text)
+command_descriptions = {
+    "start": "Starts the bot and greets the user.",
+    "tokyo": "Shows the current time in Tokyo.",
+    "dubai": "Shows today's max and min temperatures in Dubai.",
+    "bitcoin": "Displays the current Bitcoin price in USD.",
+    "help": "Lists all available commands."
+}
+
+# Modify your help_command function to use this dictionary
+async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    help_message = "Feel free to use any of available commands:\n"
+    for command, description in command_descriptions.items():
+        help_message += f"/{command} - {description}\n"
+
+    await update.message.reply_text(help_message)
 
 application = Application.builder().token(tg_api_token).build()
 application.add_handler(CommandHandler("start", start))
 application.add_handler(CommandHandler("tokyo", tokyo))
 application.add_handler(CommandHandler("dubai", dubai))                                       
 application.add_handler(CommandHandler("bitcoin", bitcoin))
-
-# message_handler = MessageHandler(filters.text & ~filters.command,echo)
+application.add_handler(CommandHandler("help", help_command))
 
 application.run_polling(allowed_updates=Update.ALL_TYPES)
