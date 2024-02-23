@@ -3,7 +3,9 @@
 <head>
     <title>Most Expensive Artworks</title>
     {% load static %}
+    {% load django_bootstrap5 %}
     <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 </head>
 <body>
 
@@ -41,7 +43,16 @@
     </tbody>
 </table>
 
-<button><a href="{% url 'child' %}">RETURN</a></button>
+<div class="card" style="width: 10rem; margin: 0 auto; margin-top: 20px;">
+    <img src="https://picsum.photos/200" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Random Image Generator</h5>
+      <p class="card-text">Refresh page to get a new image.</p>
+      <a href="{% url 'child' %}" class="btn btn-primary">RETURN</a>
+    </div>
+  </div>
+
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
 
 </body>
 </html>

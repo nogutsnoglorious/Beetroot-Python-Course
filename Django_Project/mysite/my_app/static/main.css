@@ -54,7 +54,6 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Style the button */
 button {
     background-color: #4CAF50; /* Green background */
     border: none; /* Remove border */
@@ -69,18 +68,23 @@ button {
     border-radius: 8px; /* Rounded corners */
   }
   
-  /* Hover effect */
   button:hover {
     background-color: #45a049; /* Darker green background on hover */
   }
   
-  /* Active effect */
   button:active {
     background-color: #3e8e41; /* Even darker green background when clicked */
   }
   
-  /* Focus effect */
   button:focus {
     outline: none; /* Remove outline on focus */
     box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2); /* Add a shadow when focused */
   }
+
+  .card {
+    width: 10rem; /* Set the width of the card */
+    margin: 0 auto; /* Center the card horizontally */
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}

@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness Level Estimation Poll</title>
+    {% load static %}
+    {% load django_bootstrap5 %}
+    <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 </head>
 <body>
 
-<h1>Fitness Level Estimation Poll</h1>
+    <nav class="navbar navbar-dark bg-primary justify-content-center">
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="https://www.5.ua/media/pictures/original/258237.jpg?t=1666865754" style="font-family: 'Gill Sans', sans-serif; font-weight: bold; font-size: xx-large; color: beige;">
+              <img src="https://cdn.icon-icons.com/icons2/3551/PNG/512/biceps_body_building_fitness_icon_224857.png" width="50" height="50" class="d-inline-block align-top" alt="">
+              Fitness Level Estimation Poll
+            </a>
+        </nav>
+    </nav>
+
+
     <ol>
         <li>
             <label for="q1">How often do you exercise?</label><br>

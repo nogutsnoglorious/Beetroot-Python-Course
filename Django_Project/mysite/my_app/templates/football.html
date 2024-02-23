@@ -3,12 +3,77 @@
 <head>
     <title>FIFA World Cup Winners</title>
     {% load static %}
+    {% load django_bootstrap5 %}
     <link rel="stylesheet" type="text/css" href="{% static 'main.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <style>
+        /* CSS to style the carousel */
+        .carousel {
+            width: 50%; /* Set carousel width to 50% of the page */
+            margin-left: 0; /* Align the carousel to the left */
+        }
+
+        h5 {
+            color: black;
+            background-color: whitesmoke;
+        }
+
+        p {
+            color: black;
+            background-color: whitesmoke;
+        }
+    </style>
 </head>
 <body>
 
 <h1>FIFA World Cup Winners</h1>
 <h3>since 1998</h3>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.thescottishsun.co.uk/wp-content/uploads/sites/2/2023/07/1998-soccer-world-cup-france-783149615.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>1998</h5>
+                      <p>Winning team of France</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.csmonitor.com/csmarchives/2010/07/0702-SPAIN-WORLD-CUP.jpg?alias=standard_900x600" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>2010</h5>
+                      <p>Winning team of Spain</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.sportsbrief.com/images/1120/674429e26bd3c8ee.jpeg?v=1" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>2022</h5>
+                      <p>Winning team of Argentina</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <ul>
     <li>1998 - France</li>
@@ -21,6 +86,8 @@
 </ul>
 
 <button><a href="{% url 'child' %}">RETURN</a></button>
+
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
 
 </body>
 </html>
