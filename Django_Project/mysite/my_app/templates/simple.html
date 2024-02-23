@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#" style="color: #2196f3; font-weight: bold; font-size: 24px;">COOL HEADER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="http://google.com" style="color: #2196f3;">Google</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://instagram.com" style="color: #2196f3;">Instagram</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://facebook.com" style="color: #2196f3;">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://t.me/BotFather" style="color: #2196f3;">BotFather</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
 
 <h1>My first web list</h1>
 <p>This is a list of my pages:</p>
@@ -16,6 +40,16 @@
     {% block content %}
     {% endblock %}
 </div>
+
+
+<footer class="footer mt-auto py-3 text-center fixed-bottom" style="background-color: rgb(227, 94, 160);">
+    <span class="text-muted" style="font-size: 36px;">Some more site examples</span>
+    <ul class="list-inline mt-3 mb-0">
+      <li class="list-inline-item"><a href="https://russianwarship.rip/en" style="color: #d5d5d5;">RussianWarship</a></li>
+      <li class="list-inline-item"><a href="https://www.github.com" style="color: #d5d5d5;">GitHub</a></li>
+      <li class="list-inline-item"><a href="https://www.wikipedia.org" style="color: #d5d5d5;">Wikipedia</a></li>
+    </ul>
+  </footer>
 
 </body>
 </html>
