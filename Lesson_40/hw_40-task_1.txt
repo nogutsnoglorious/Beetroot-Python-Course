@@ -1,0 +1,6 @@
+Question 1: O(n^2)
+Question 2: O(1)
+Question 3: O(n^2)
+Question 4: O(n)
+Question 5: O(n^2)
+Question 6: O(log n)
