@@ -1,4 +1,11 @@
 secret_key.py
 telegram_api_token.py
-Final_Project
+Final_Project/beta
+Final_Project/LLaMar AI Bot/__pycache__
+Final_Project/LLaMar AI Bot/saved_audio
+Final_Project/LLaMar AI Bot/.env
+Final_Project/LLaMar AI Bot/bot_log.txt
+Final_Project/LLaMar AI Bot/chat_history.json
+Final_Project/LLaMar AI Bot/users_voice_choice.json
+Final_Project/LLaMar AI Bot/voice_to_process.json
 notes.txt
